@@ -1,3 +1,5 @@
+package edu.dio.flavio.java.designpatterns.spring.demo;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
