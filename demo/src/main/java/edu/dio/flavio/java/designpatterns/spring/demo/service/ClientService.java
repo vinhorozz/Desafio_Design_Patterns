@@ -1,6 +1,6 @@
 package edu.dio.flavio.java.designpatterns.spring.demo.service;
 
-import ch.qos.logback.core.net.server.Client;
+import edu.dio.flavio.java.designpatterns.spring.demo.model.Client;
 
 public interface ClientService {
 
@@ -11,7 +11,7 @@ public interface ClientService {
     //insert
     void insert(Client client);
     //update
-    void  update(Long id, Client client);
+    void update(Long id, Client client);
     //delete
     void delete(Long id);
 }
