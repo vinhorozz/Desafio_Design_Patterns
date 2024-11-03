@@ -7,9 +7,10 @@ import edu.dio.flavio.java.designpatterns.spring.demo.repository.ClientRepositor
 import edu.dio.flavio.java.designpatterns.spring.demo.service.ClientService;
 import edu.dio.flavio.java.designpatterns.spring.demo.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
-
+@Service
 public class ClientServiceImplementation implements ClientService {
 
     @Autowired
